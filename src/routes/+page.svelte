@@ -1,6 +1,17 @@
 <style>
 
-
+:global(body) {
+  margin: 0;
+				font-size: 2rem;
+				display: flex;
+				flex: 1;
+				min-height: 100vh;
+				align-items: center;
+				justify-content: center;
+        background: #282828;
+				text-align: center;
+				font-size: 10px;
+}
 .clock {
   width: 30rem;
   height: 30rem;
